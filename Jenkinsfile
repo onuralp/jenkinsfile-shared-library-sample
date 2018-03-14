@@ -1,6 +1,6 @@
 @Library('jalogut/jenkins-basic-shared-library-sample') _
 
-standardPipeline {
+simplePipeline {
     Name = "Name from Jenkinsfile"
     Message = "Message from Jenkinsfile"
 }
